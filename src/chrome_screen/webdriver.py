@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+ChromeScreenshot is a wrapper class for the default Chrome
+webdriver which lacks the capability to take a full-page
+screenshot.
+
+https://bugs.chromium.org/p/chromedriver/issues/detail?id=294
 """
 
 from __future__ import (

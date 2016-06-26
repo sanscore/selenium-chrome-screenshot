@@ -234,9 +234,7 @@ class ChromeScreenshot(Chrome):
         doc_width = self.__document_width
         doc_height = self.__document_height
         with Image(width=doc_width*2, height=doc_height*2) as screenshot:
-            for data, rect in self.__iter_screenshots((doc_width,doc_height)):
-                rect_width = (rect[RIGHT] - rect[LEFT]) * 2
-                rect_height = (rect[BOTTOM] - rect[TOP]) * 2
+            for data, rect in self.__iter_screenshots((doc_width, doc_height)):
 
                 with Image(blob=base64.b64decode(data),
                            format='png') as shot:

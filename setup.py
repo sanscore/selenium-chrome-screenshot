@@ -18,7 +18,7 @@ setup(
     license='Apache License 2.0',
 
     packages=find_packages('src'),
-    package_dir={'':'src'},
+    package_dir={'': 'src'},
 
     install_requires=[
         'selenium',

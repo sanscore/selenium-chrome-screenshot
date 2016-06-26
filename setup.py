@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 setup(
     name='selenium-chrome-screenshot',
     version='0.0.1',
-    url='http://github.com/sanscore/chrome-screenshot/',
+    url='http://github.com/sanscore/selenium-chrome-screenshot/',
 
     description='',
     long_description='',
@@ -46,8 +46,8 @@ setup(
         "Programming Language :: Python :: 3.5",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Session",
-        "Topic :: Software Development :: Testing"
-        "Topic :: Software Development :: Libraries"
+        "Topic :: Software Development :: Testing",
+        "Topic :: Software Development :: Libraries",
     ],
 
     include_package_data=True,

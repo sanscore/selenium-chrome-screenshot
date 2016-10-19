@@ -1,9 +1,10 @@
-A Python ChromeDriver wrapper that takes full page screenshots.
 ChromeScreenshot
 ================
 
 .. pypi-buttons
 .. ci-buttons
+
+A Python ChromeDriver wrapper that takes full page screenshots.
 
 TODO
 ====
